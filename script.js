@@ -23,7 +23,7 @@ btn.onclick = function () {
 };
 //! with for 
 btn.onclick = function () {
-  for (var i = 0; random === lastRandom; true) {
+  for (; random === lastRandom; ) {
     random = Math.floor(Math.random() * quotes.length);
     console.log(random);
   }
